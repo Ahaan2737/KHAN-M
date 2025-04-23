@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "KHAN-MD~BbMBkAIB#Y0K5hHrEj8lqG7RmTl0ADJ6UreYwKmeSgSo5QAzWAOc",
+SESSION_ID: process.env.SESSION_ID || "KHAN-MD~0KsAESrK#Z0Smfu-6x_PQv4OGhrxQXwk7u2OmRrjm2Mxp-OnK0T0",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
@@ -15,15 +15,15 @@ AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 // make true if you want auto reply on status 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS BY KHAN-MD 🤍*",
 // set the auto reply massage on status reply  
-ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_LINK: process.env.ANTI_LINK || "true", 
 // make anti link true,false for groups 
-MENTION_REPLY: process.env.MENTION_REPLY || "false",
+MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/7zfdcq.jpg",
 // add custom menu and mention reply image url
 WELCOME: process.env.WELCOME || "true",
 // make true if want welcome and goodbye message in groups 
-PREFIX: process.env.PREFIX || ".",
+PREFIX: process.env.PREFIX || ",",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "KHAN-MD",
 // add bot namw here for menu
@@ -33,13 +33,13 @@ CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-DELETE_LINKS: process.env.DELETE_LINKS || "false",
+DELETE_LINKS: process.env.DELETE_LINKS || "true",
 // automatic delete links witho remove member 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "92342758XXXX",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "256709547277",
 // add your bot owner number
-OWNER_NAME: process.env.OWNER_NAME || "Jᴀᴡᴀᴅ TᴇᴄʜX",
+OWNER_NAME: process.env.OWNER_NAME || "💞🅰🅳🆂🆃🆄🅻🅰🅷💞",
 // add bot owner name
-DESCRIPTION: process.env.DESCRIPTION || "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Jᴀᴡᴀᴅ TᴇᴄʜX*",
+DESCRIPTION: process.env.DESCRIPTION || "*I love you Mastu*",
 // add bot owner name    
 ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/149k8x.jpg",
 // add img for alive msg
@@ -49,7 +49,7 @@ READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
 AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words  
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
@@ -61,15 +61,15 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
-DEV: process.env.DEV || "923427582273",
+DEV: process.env.DEV || "256709547277",
 //replace with your whatsapp number        
 ANTI_VV: process.env.ANTI_VV || "true",
 // true for anti once view 
